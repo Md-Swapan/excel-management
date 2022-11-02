@@ -10,6 +10,7 @@ import "./DashboardSidebar.css";
 import { NavLink } from "react-router-dom";
 // import { baseURL } from './../../../baseUrl';
 
+
 const DashboardSidebar = () => {
 //   const { user, logOut } = useAuth();
 
@@ -50,57 +51,64 @@ const DashboardSidebar = () => {
       <div id="sidebarMenu">
         <div className="dashboard-logo">
           <img src={logo} alt="" />
+          Excel <br/> Management
         </div>
         <div className="dashboard-profile-show-container">
-          <div className="Dashboard-profileImg">
-            <div>
-              {/* <img src={profileImg} alt="" /> */}
-            </div>
-          </div>
-          <div className="profileName-shopQuantity">
-            {/* <h6>{user.displayName}</h6>
-            <small>Quantity of shop: {shops.length}</small> */}
-          </div>
         </div>
         <ul className="menuList">
           <NavLink to="/">
-            <li className="menu-item">
-            <i className="bi bi-house-fill"></i> Home
-            </li>
-          </NavLink>
-          <NavLink to="/dashboard">
             <li className="menu-item active">
-              <i className="bi bi-grid-1x2-fill"></i> Dashboard
+            <i class="bi bi-grid-fill"></i> Dashboard
             </li>
           </NavLink>
-          <NavLink to="order-history">
+          <NavLink to="projects">
             <li className="menu-item">
-              <i className="bi bi-clock-fill"></i> Order History
+            <i class="bi bi-kanban-fill"></i> Projects
             </li>
           </NavLink>
-          <NavLink to="take-service">
+          <NavLink to="client">
             <li className="menu-item">
-              <i className="bi bi-terminal-fill"></i> Take Service
+            <i class="bi bi-people-fill"></i> Client
             </li>
           </NavLink>
-          <NavLink to="track-product">
+          <NavLink to="employee">
             <li className="menu-item">
-              <i className="bi bi-map-fill"></i> Track Product
+            <i class="bi bi-person-lines-fill"></i> Employee
             </li>
           </NavLink>
-          <NavLink to="offers">
+          <NavLink to="task">
             <li className="menu-item">
-              <i className="bi bi-bookmark-star-fill"></i> Offers
+            <i class="bi bi-list-task"></i> Task
             </li>
           </NavLink>
-          <NavLink to="support">
+          <NavLink to="tickets">
             <li className="menu-item">
-              <i className="bi bi-headset"></i> Support
+            <i class="bi bi-tags-fill"></i> Tickets
             </li>
           </NavLink>
-          <NavLink to="coverage-area">
+          <NavLink to="attendance">
             <li className="menu-item">
-              <i className="bi bi-pin-map-fill"></i> Coverage Area
+            <i class="bi bi-person-check-fill"></i> Attendance
+            </li>
+          </NavLink>
+          <NavLink to="department">
+            <li className="menu-item">
+            <i class="bi bi-diagram-3-fill"></i> Department
+            </li>
+          </NavLink>
+          <NavLink to="official-calender">
+            <li className="menu-item">
+            <i class="bi bi-calendar2-check-fill"></i> Official Calender
+            </li>
+          </NavLink>
+          <NavLink to="chat">
+            <li className="menu-item">
+            <i class="bi bi-chat-dots-fill"></i> Chat
+            </li>
+          </NavLink>
+          <NavLink to="holiday">
+            <li className="menu-item">
+            <i class="bi bi-calendar2-x-fill"></i> Holiday
             </li>
           </NavLink>
           <li  className="menu-item">

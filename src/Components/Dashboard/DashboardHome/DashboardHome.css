@@ -1,0 +1,22 @@
+.InfoData-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 40px;
+}
+.chart-list-activityLog{
+    margin: 40px;
+}
+.statusCard{
+    border: .5px solid #3E0E40;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+    border-radius:7px;
+}
+
+.ProjectActivityLog{
+    border: .5px solid #3E0E40;
+    padding: 20px;
+    border-radius:7px;
+}

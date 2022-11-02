@@ -1,11 +1,10 @@
 import React from "react";
-// import DashboardSidebar from "./DashboardSidebar/DashboardSidebar";
 import "./Dashboard.css";
 import { Outlet } from "react-router-dom";
-import DashboardSidebar from './../DashboardSidebar/DashboardSidebar';
+import DashboardSidebar from "./../DashboardSidebar/DashboardSidebar";
+import profileImg from '../../assets/image/a7309240-editar-768x512 (1).jpg'
 
 const Dashboard = () => {
-
   return (
     <>
       <div className="dashboard-section">
@@ -14,20 +13,18 @@ const Dashboard = () => {
         </div>
         <div className="dashboard-content-outlet-container">
           <div className="dashboard-navbar">
-            <div className="content-title">dashboard</div>
-            {/* <div className="content-search">
-              <input type="text" name="" placeholder="Search" />{" "}
-              <span>
-                <i className="bi bi-search"></i>
-              </span>
-            </div> */}
-            <div className="user-profile">
-              img
+            <div className="content-title">Dashboard</div>
+            <div className="user-tab">
+            <i class="bi bi-bell-fill"></i>
+              <small>Admin</small>
+              <div className="user-profile">
+                <img width='60' src={profileImg} alt=""/>
+              </div>
             </div>
           </div>
 
           <div className="dashboard-outlet-container">
-            <Outlet/>
+            <Outlet />
           </div>
         </div>
       </div>

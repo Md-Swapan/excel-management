@@ -9,7 +9,6 @@
     background: #3E0E40;
     /* transform: translateX(-250px); */
     transition: transform 250ms ease-in-out;
-    font-family: "Poppins", sans-serif;
     color: #707070;
   }
   
@@ -30,15 +29,27 @@
   .dashboard-logo {
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-left: 40px;
     padding: 20px 0px;
+    font-size: 18px;
+    color: #fff;
+
+    /* border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      rgb(148, 148, 148),
+      rgba(0, 0, 0, 0)
+    );
+    border-bottom: 2px solid saddlebrown; */
   }
   .dashboard-logo img {
-    width: 70px;
+    width: 55px;
+    margin-right: 12px;
   }
   .dashboard-profile-show-container {
-    padding-top: 40px;
-    margin: 0px 10px;
     border-image-slice: 1;
     border-width: 1px;
     border-image-source: linear-gradient(
@@ -53,11 +64,13 @@
   .Dashboard-profileImg {
     justify-content: center;
     display: flex;
+    
   }
   .Dashboard-profileImg img {
     width: 120px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 2px 5px -1px,
+      rgba(255, 255, 255, 0.3) 0px 1px 3px -1px;
   }
 
   .profileName-shopQuantity {
@@ -70,10 +83,12 @@
   }
   .menu-item {
     list-style: none;
+    text-decoration: none;
     margin: 20px;
     background: none;
-    padding: 10px 20px;
+    padding: 5px 20px;
     font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -82,8 +97,15 @@
     z-index: 3;
     transition: 0.5s;
   }
+  .menu-item i {
+    font-size: 22px;
+    margin-right: 7px;
+  }
+  a{
+    text-decoration: none;
+  }
   .menu-item:hover {
-    color: #cf3f1e;
+    color: #ec7600;
   }
   /* .menu-item::before {
     content: "";
@@ -102,11 +124,7 @@
     height: 180%;
   } */
   .active {
-    background: #002a47;
-    color: #fff;
+    color: #24ACF2;
     transition: 0.5s;
-  }
-  .active:hover {
-    color: #fff;
   }
   
