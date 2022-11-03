@@ -1,8 +1,26 @@
+.infoCard{
+  position: relative;
+}
 .infoDataCard{
     font-family: 'Montserrat', sans-serif;
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 2px 5px -1px,
-      rgba(46, 46, 46, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     border-radius: 10px;
-    padding: 30px;
-    background-color: antiquewhite;
+    overflow: hidden;
+    cursor: pointer; 
+}
+.infoDataCard img{
+  width: 100%;
+  position: relative;
+}
+.infoText h5{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 30px;
+    color: #ffff;
+}
+.infoText h6{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 30px;
+    color: #ffff;
 }

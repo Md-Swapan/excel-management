@@ -18,7 +18,7 @@ const Dashboard = () => {
             <i class="bi bi-bell-fill"></i>
               <small>Admin</small>
               <div className="user-profile">
-                <img width='60' src={profileImg} alt=""/>
+                <img width='63' src={profileImg} alt=""/>
               </div>
             </div>
           </div>

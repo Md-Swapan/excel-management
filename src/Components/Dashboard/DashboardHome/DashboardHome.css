@@ -1,3 +1,4 @@
+
 .InfoData-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -7,16 +8,91 @@
 .chart-list-activityLog{
     margin: 40px;
 }
-.statusCard{
-    border: .5px solid #3E0E40;
-    padding: 20px;
-    margin-bottom: 20px;
-    /* margin-right: 20px; */
-    border-radius:7px;
+.status-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px 20px;
+    margin-left: -10px !important;
 }
 
+.statusCard{
+    width: 98%;
+    height: 94%;
+    border: .5px solid #960d9b;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius:7px;
+}
+.statusCard h5{
+    color: #960d9b;
+}
+.statusCard ul li{
+    list-style: none;
+    font-size: 14px;
+    color: #424242;
+    margin: 7px;
+    cursor: pointer;
+}
+.statusCard ul li i{
+    color: #960d9b;
+    font-size: 17px;
+}
+.Event{
+    color: #960d9b;
+}
+.announcement{
+    color: #e02525;
+}
+.Event i{
+    margin-top: 7px;
+}
+.announcement i{
+    margin-top: 7px;
+}
 .ProjectActivityLog{
-    border: .5px solid #3E0E40;
+    border: .5px solid #960d9b;
     padding: 20px;
     border-radius:7px;
+}
+.ProjectActivityLog h5{
+    color: #960d9b;
+}
+.logBorder{
+    width: 1px;
+    height: 100vh;
+    border: 1px solid #960d9b;
+    margin-left: 50px;
+    position: relative;
+}
+
+.logDot{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #960d9b;
+    background: #e1bde2;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -90vh;
+    margin-left: 41px;
+}
+
+.logCard{
+    width: 300px;
+    height: 100px;
+    /* border: 1px solid #960d9b; */
+    margin: 55px;
+    padding: 20px;
+    border-radius: 10px ;
+    background: rgb(255, 224, 224);
+}
+.logCardHeadPath{
+    height: 50px;
+    width: 80px;
+    background: rgb(255, 224, 224);
+    /* border: 3px solid #960d9b; */
+    clip-path: polygon(50% 0%, 0 50%, 50% 100%);
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 20px;
+    overflow: hidden;
 }
