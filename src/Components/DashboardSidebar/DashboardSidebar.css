@@ -127,4 +127,24 @@
     color: #24ACF2;
     transition: 0.5s;
   }
+
+  .projectMenu span i{
+    float: right;
+    font-size: 15px;
+    margin-top: 7px;
+  }
   
+  .arowToggle{
+    transform: rotateX(180deg);
+  }
+  .projectSubmenu{
+    display: none;
+  }
+  .projectSubmenuActive{
+    display: block;
+  }
+  .projectSubmenu li{
+    list-style: none;
+    margin: 10px 30px;
+    font-size: 14px;
+  }

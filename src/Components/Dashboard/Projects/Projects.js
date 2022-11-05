@@ -1,10 +1,12 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div>
-            <h2>Projects</h2>
-        </div>
+        <>
+        <h2>Project</h2>
+            <Outlet />
+        </>
     );
 };
 

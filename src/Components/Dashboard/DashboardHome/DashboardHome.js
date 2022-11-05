@@ -112,7 +112,7 @@ const DashboardHome = () => {
 
   return (
     <div className="container-fluid">
-      {/* <h1>dashboard</h1> */}
+      <h2>dashboard</h2>
 
       <div className="InfoData-container">
         {dashboardAllInfoData.map((InfoData) => (

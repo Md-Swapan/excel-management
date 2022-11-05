@@ -13,7 +13,7 @@ const Dashboard = () => {
         </div>
         <div className="dashboard-content-outlet-container">
           <div className="dashboard-navbar">
-            <div className="content-title">Dashboard</div>
+            <div className="content-title"></div>
             <div className="user-tab">
             <i class="bi bi-bell-fill"></i>
               <small>Admin</small>
