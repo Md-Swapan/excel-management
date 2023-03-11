@@ -1,0 +1,7 @@
+.allProject-card{
+    margin: 0px 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    font-size: 14px;
+}

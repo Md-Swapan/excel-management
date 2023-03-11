@@ -38,10 +38,12 @@ const DashboardSidebar = () => {
   return (
     <>
       <div id="sidebarMenu">
+        <Link to='/'>
         <div className="dashboard-logo">
           <img src={logo} alt="" />
           Excel <br /> Management
         </div>
+        </Link>
         <div className="dashboard-profile-show-container"></div>
         <ul className="menuList">
           <NavLink to="/dashboard">

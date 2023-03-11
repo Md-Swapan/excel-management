@@ -1,0 +1,25 @@
+.home{
+    background: #3E0E40;
+    height: 100vh;
+}
+.home-section{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.home-section img{
+    width: 150px;
+    margin-top: 30vh;
+}
+.home-section h2{
+    margin-top: 40px;
+    color: #ffff;
+}
+.home-section button{
+    border: 1px solid gainsboro;
+    background: none;
+    padding: 10px 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    color: #ffff;
+}

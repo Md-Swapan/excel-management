@@ -1,0 +1,28 @@
+.project-home-header{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    margin: 45px;
+}
+.project-home-header span{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #4e4e4e;
+    cursor: pointer;
+}
+.project-home-header button{
+    width: 120px;
+    border: 1px solid #960d9b;
+    background: none;
+    padding: 10px;
+    color: #4e4e4e;
+    font-size: 14px;
+}
+.project-home-header button:hover{
+    background: #960d9b;
+    color: #ffffff;
+}
+.runningProjectComponent{
+    /* display: none; */
+}

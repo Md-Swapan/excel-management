@@ -19,16 +19,20 @@ import ProjectTimeline from './Components/Dashboard/Projects/ProjectTimeline/Pro
 import ProjectActivity from './Components/Dashboard/Projects/ProjectActivity/ProjectActivity';
 import ProjectsExpense from './Components/Dashboard/Projects/ProjectsExpense/ProjectsExpense';
 import ProjectInvoice from './Components/Dashboard/Projects/ProjectInvoice/ProjectInvoice';
+import Home from './Components/Home/Home';
+import All from './Components/Dashboard/Projects/ProjectHome/All/All';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        {/* <Route path="/" element={<Dashboard />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="dashboard" element={<Dashboard />}>
           <Route index element={<DashboardHome />}></Route>
           <Route path="projects" element={<Projects />}>
-            <Route index element={<ProjectHome />}></Route>
+            <Route index element={<ProjectHome />}>
+              {/* <Route path="all-project" element={<All/>}></Route> */}
+            </Route>
             <Route path="add-project" element={<AddProject />}></Route>
             <Route path="view-project" element={<ViewProjects />}></Route>
             <Route path="projects-timeline" element={<ProjectTimeline />}></Route>

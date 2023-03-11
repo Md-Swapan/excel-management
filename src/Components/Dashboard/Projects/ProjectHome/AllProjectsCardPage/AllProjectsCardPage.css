@@ -1,0 +1,125 @@
+.project-card-container{
+    border: .5px solid #960d9b88;
+    padding: 20px;
+    border-radius: 7px;
+    
+}
+.project-card-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.view-edit-icon-btn i{
+    font-size: 24px;
+    margin: 0px 10px;
+    color: rgb(0, 155, 194);
+    cursor: pointer;
+}
+.view-edit-icon-btn i:last-child{
+    font-size: 24px;
+    margin: 0px 10px;
+    color: rgb(6, 153, 30);
+    cursor: pointer;
+}
+.project-card-content{
+    display: flex;
+}
+.project-card-container h5{
+    text-align: center;
+    margin-bottom: 20px;
+    /* color: gray; */
+}
+.project-card-container p {
+    font-weight: 600;
+    font-size: 13px;
+}
+.project-card-container p span{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.time, .budget{
+    display: flex;
+    margin: 15px 0px;
+}
+.time p, .budget p{
+    width: 80px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.time1{
+    font-weight: 500 !important;
+}
+.time span, .budget span{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.bar{
+    width: 70px;
+    margin-left: 35px;
+}
+.wrapper {
+    width: 140px;
+    margin-left: 35px;
+    
+  }
+  
+  .barContainer {
+    background-color: rgb(182, 182, 182);
+    height: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .barCompleted {
+    background-color: rgb(6, 153, 30);
+    width: 80%;
+    height: 20px;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+  }
+
+
+  .timeBarContainer {
+    background-color: rgb(182, 182, 182);
+    height: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .timeBarCompleted {
+    background-color: rgb(194, 0, 0);
+    width: 100%;
+    height: 20px;
+  }
+  .lastTimeBarCompleted {
+    background-color: rgb(0, 155, 194);
+    width: 50%;
+    height: 20px;
+  }
+  
+  .budgetBarContainer {
+    background-color: rgb(182, 182, 182);
+    height: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .budgetBarCompleted {
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    height: 20px;
+  }
+  .budgetbar .budgetBarCompleted {
+    background-color: rgb(70, 70, 70);
+    width: 50%;
+    height: 20px;
+  }
+  .timebar{
+    margin-left: 40px;
+  }

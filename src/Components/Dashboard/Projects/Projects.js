@@ -1,13 +1,15 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
+import React from "react";
+import { Outlet } from "react-router-dom";
 
 const Projects = () => {
-    return (
-        <>
+  return (
+    <>
+      <div className="container-fluid">
         <h2>Project</h2>
-            <Outlet />
-        </>
-    );
+        <Outlet />
+      </div>
+    </>
+  );
 };
 
 export default Projects;
